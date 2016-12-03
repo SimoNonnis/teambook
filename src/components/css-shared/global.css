@@ -13,11 +13,7 @@ html {
   box-sizing: inherit;
 }
 
-@media (--tablet) {
-  html {
-    background-color: var(--mobileColor);
-  }
-}
+/*@media (--tablet) {}*/
 
 
 h1,

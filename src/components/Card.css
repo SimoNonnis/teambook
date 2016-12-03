@@ -1,0 +1,40 @@
+@import './css-shared/variables.css';
+
+.card {
+  text-align: center;
+  display: inline-block;
+}
+
+.card__info {
+  padding: 1.5em 1.5em .5em;
+  background-color: var(--lightestColor);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.card__team {
+  padding: .5em;
+  background-color: var(--frontEndColor);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.cardInfo__socialLinks {
+  margin-top: 1em;
+}
+
+.socialLinks__ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  text-align: center;
+}
+
+.socialLinks__elm {
+  display: inline-block;
+}
+
+.elm__link {
+  padding: 1em;
+  display: block;
+}
